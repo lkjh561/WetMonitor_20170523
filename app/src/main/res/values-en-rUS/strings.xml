@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WetMonitor</string>
+    <string name="title_activity_peripheral">Settings</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="getting_rid">Getting RID......</string>
+    <string name="push_on">Push On</string>
+    <string name="push_off">Push Off</string>
+    <string name="exit_app">Exit</string>
+    <string name="double_back_button_to_exist">Press the Return button again to exit the app</string>
+    <string name="login_ask_title">Login User</string>
+    <string name="login_ask_content">Open the push mode have to use Wi-Fi or Mobile data and login user, press 【Confirm】 then you can login or register in login page!</string>
+    <string name="login_page_ac">ACC:</string>
+    <string name="login_page_pw">PWD:</string>
+    <string name="login_page_login_button">Login</string>
+    <string name="login_page_register_button">Register</string>
+    <string name="regist_account_success">Register successfully!</string>
+    <string name="regist_account_fail">Invalid,this account have been registered</string>
+    <string name="login_success_toast">Login successfully!</string>
+    <string name="login_password_not_correct_toast">Wrong password!</string>
+    <string name="login_account_not_exist_toast">Account not exist!</string>
+    <string name="login_can_not_null">Account or password can not be blank!</string>
+    <string name="language">en</string>
+    <string name="chang_tag_status_title">Change Tag status?</string>
+    <string name="chang_tag_status_content_tag_disable">Click 【Enable】 to start receiving data, 【Unregister】 can not receive data, and disappear when the next time you open App</string>
+    <string name="chang_tag_status_content_tag_enable">Click 【Disable】 to pause receiving data, 【Unregister】 can not receive data, and disappear when the next time you open App</string>
+    <string name="unregister_button">Unregister</string>
+    <string name="tag_regist_ask_title">Register this Tag?</string>
+    <string name="tag_regist_ask_content">After registration, you can receive the humidity information and push information of this tag</string>
+    <string name="register_button">Register Tag</string>
+    <string name="enable_success">Enable successfully!</string>
+    <string name="disable_success">Disable successfully!</string>
+    <string name="unregist_success">Unregister successfully!</string>
+    <string name="token_not_correct">Token error, this account may be other phone login!</string>
+    <string name="tag_not_exist_in_database">This tag does not exist in the database, please upload this tag data through the hub!</string>
+    <string name="logout_ask_title">Logout User</string>
+    <string name="logout_ask_content">Close the push mode have to logout user and enter the Bluetooth near-end scan mode!</string>
+    <string name="logout_success">Logout successfully!</string>
+    <string name="logout_fail">Invalid Logout!</string>
+    <string name="logout_process">Logout......</string>
+    <string name="check_internet">Please check your network connection</string>
+
+    <string name="dialog_title_setListItemName">Please type the name you want to modify</string>
+    <string name="dialog_Message_NoEnter">Revert the name if no type in</string>
+    <string name="ble_not_supported">This phone does not support low-power Bluetooth technology</string>
+
+</resources>

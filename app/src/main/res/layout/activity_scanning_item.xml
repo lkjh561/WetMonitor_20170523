@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/waterImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="waterICON"
+        android:src="@drawable/water_eye" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/waterImage"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" >
+
+            <TextView
+                android:id="@+id/deviceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AB"
+                android:textColor="#404040"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" >
+
+            <TextView
+                android:id="@+id/deviceAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CD"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/batteryImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/waterImage"
+        android:contentDescription="batteryICON"
+        android:src="@drawable/battery" />
+
+    <TextView
+        android:id="@+id/batteryLV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/batteryImage"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/deviceRssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/smValue"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="12dp"
+        android:text="EF"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/smValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tableLayout"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="99%"
+        android:textColor="#0080ff"
+        android:textSize="35sp" />
+
+</RelativeLayout>

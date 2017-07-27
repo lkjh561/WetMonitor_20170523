@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/stop_push" android:title="推撥off" android:orderInCategory="3" android:showAsAction="always|withText"></item>
+    <item android:id="@+id/start_push" android:title="推播on" android:orderInCategory="4" android:showAsAction="always|withText"></item>
+    <item android:id="@+id/scanning_indicator" android:title="" android:orderInCategory="2" android:showAsAction="always"></item>
+    <item android:id="@+id/exit" android:title="Exit" android:showAsAction="always|withText" android:orderInCategory="7"></item>
+</menu>

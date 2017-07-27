@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WetMonitor</string>
+    <string name="title_activity_peripheral">Settings</string>
+    <string name="cancel_button">取消</string>
+    <string name="confirm_button">確定</string>
+    <string name="getting_rid">取得RID中......</string>
+    <string name="push_on">開啟推撥</string>
+    <string name="push_off">關閉推撥</string>
+    <string name="exit_app">離開</string>
+    <string name="double_back_button_to_exist">再按一次返回鍵退出應用程式</string>
+    <string name="login_ask_title">登入使用者</string>
+    <string name="login_ask_content">開啟推撥模式需使用Wi-Fi或行動數據並登入使用者，按下【確定】後可在登入頁面登入或註冊帳號!</string>
+    <string name="login_page_ac">帳號: </string>
+    <string name="login_page_pw">密碼: </string>
+    <string name="login_page_login_button">登入</string>
+    <string name="login_page_register_button">註冊</string>
+    <string name="regist_account_success">註冊成功!</string>
+    <string name="regist_account_fail">註冊失敗!此帳號已被申請</string>
+    <string name="login_success_toast">登入成功!</string>
+    <string name="login_password_not_correct_toast">密碼錯誤!</string>
+    <string name="login_account_not_exist_toast">帳號不存在!</string>
+    <string name="login_can_not_null">不可空白帳號或密碼!</string>
+    <string name="language">zh</string>
+    <string name="chang_tag_status_title">變更TAG狀態?</string>
+    <string name="chang_tag_status_content_tag_disable">點選【Enable】可開始接收資料，【解除註冊】則無法接收資料，並於下次開啟App時消失</string>
+    <string name="chang_tag_status_content_tag_enable">點選【Disable】可暫停接收資料，【解除註冊】則無法接收資料，並於下次開啟App時消失</string>
+    <string name="unregister_button">解除註冊</string>
+    <string name="tag_regist_ask_title">是否註冊此Tag?</string>
+    <string name="tag_regist_ask_content">註冊後可接收此Tag的溼度資料與推撥訊息</string>
+    <string name="register_button">註冊Tag</string>
+    <string name="enable_success">Enable 成功!</string>
+    <string name="disable_success">Disable 成功!</string>
+    <string name="unregist_success">解除成功!</string>
+    <string name="token_not_correct">token 錯誤，此帳號可能被其他收手機登入!</string>
+    <string name="tag_not_exist_in_database">此Tag不存在於資料庫中，請先透過hub上傳此Tag資料!</string>
+    <string name="logout_ask_title">登出使用者</string>
+    <string name="logout_ask_content">關閉推撥模式需登出使用者，並進入藍芽近端掃描模式!</string>
+    <string name="logout_success">登出成功!</string>
+    <string name="logout_fail">登出失敗!</string>
+    <string name="logout_process">登出中......</string>
+    <string name="check_internet">請檢察網路連線狀況</string>
+
+    <string name="dialog_title_setListItemName">請輸入要修改的名字</string>
+    <string name="dialog_Message_NoEnter">無輸入則還原名字</string>
+    <string name="ble_not_supported">這台手機不支援低功耗藍芽技術</string>
+
+</resources>
