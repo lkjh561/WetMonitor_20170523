@@ -51,6 +51,7 @@ public class Login_dialog extends Activity {
     String token = "";
     SharedPreferences preferences;
     MainActivity main = new MainActivity();
+    // 87888788787878878878878878887888
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
